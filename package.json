@@ -1,0 +1,27 @@
+{
+	"name": "connec-api",
+	"version": "1.0.0",
+	"description": "The api for the frontend of connec to access and get all necessary informations from the database to and fro",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Clupai8o0/connec-api.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Clupai8o0/connec-api/issues"
+	},
+	"homepage": "https://github.com/Clupai8o0/connec-api#readme",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"nodemon": "^3.0.1",
+		"pg": "^8.11.1"
+	}
+}
